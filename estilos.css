@@ -1,0 +1,33 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+}
+
+.card-header {
+    border-bottom: 1px solid #edf2f7;
+    padding: 1.25rem;
+}
+
+.table thead th {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    letter-spacing: 0.025em;
+    color: #718096;
+    border-top: none;
+}
+
+.btn-sm {
+    padding: 0.4rem 0.8rem;
+    font-weight: 500;
+}
+
+/* Ajuste para SweetAlert2 */
+.swal2-popup {
+    font-size: 0.9rem !important;
+}
